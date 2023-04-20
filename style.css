@@ -1,0 +1,27 @@
+/*POSICION - Habilita los cuatro ejes de nuestra web*/
+/*
+top - right - bottom - left
+los cuatro lados de la web
+
+PARA FIJAR EL HEADER o NAVBAR
+*/
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/*FIJAR otro navbar o seccion, punto especifico*/
+
+.sticky{
+    position: sticky;
+    top: 60px;
+}
